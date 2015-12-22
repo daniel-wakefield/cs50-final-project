@@ -1,0 +1,20 @@
+I created a website for my final project.  I used the MVC model in order to implement it.
+A lot of the design elements and organization are very similar to PSET7.  And I used a lot
+of the functionality that was handed to me with pset7, especially the query function. 
+
+The most difficult aspect of this project was getting the javascript working correctly. 
+I wanted to be able to update the table live.  So I had to use javascript for this. I 
+sent the query data for the table to the javascript using JSON, and then the functions
+addRow and addColumn in order to add this new information to the table.  I also had to 
+keep track of which of the entries had not yet been displayed, so I made us of a $_SESSION
+variable in order to do this. 
+
+I had a similarly difficult time keeping the information in the header accurate.  I used
+a very similar set up to keep these values up to date, but I used setInterval() so that
+they wouldn't need a button press from the user in order to be updated.  Instead they would
+automatically get updated every five seconds. 
+
+Those were definatley the most difficult aspects of this project and the ones that I am the
+most proud of.  I would sincerely like to thank you for the experience of this course, it was
+fascinating and very rewarding, if at times frustrating, to put it mildly.  Thank you so much,
+this has truly been one of the most rewarding experiences of my life. 

@@ -1,0 +1,164 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global CSS.
+ */
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+
+#bankroll
+{
+    position:absolute;
+    top: 44px;
+    left: 170px;
+    background-color:#00FF33;
+}
+
+
+
+.personalTable
+{
+    width: 500px;
+}
+
+#placedBets
+{
+    position:absolute;
+    left: 170px;
+    top: -5px;
+    background-color:#00FFFF;
+}
+
+#takenBets
+{
+    position: absolute;
+    left: 170px;
+    background-color:#FF6633;
+}
+
+#takerDiv
+{
+    position:absolute;
+    left: 600px;
+    top: 79px;
+    
+}
+
+#makerTable
+{
+    width:500px;
+    
+}
+
+#makerDiv
+{
+    width:500px;
+}
+
+#takerTable
+{
+    width:500px;
+}   
+
+
+#betDescription
+{
+    text-align: left;
+    color: red;
+}
+
+#date
+{
+    position:relative;
+    top:-155px;
+    left:450px;
+}
+
+#betTable
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+#betTable ,td, th
+{
+    border:1px solid black;
+    padding: 3px 7px 2px 7px;
+}
+
+.color1
+{
+    background-color: #CCCC33;
+}
+
+.color2
+{
+    background-color:#99CCFF;
+}
+
+.color3
+{
+    background-color:#99FF99;
+}
+
+.color4
+{
+    background-color:#FF3366;
+}
+
+.blank_row
+{
+    height:20px !important;
+   
+    border: 1px solid white;
+}
+
+.blank_cell
+{
+    border:0px !important;
+    
+}
+
+.description
+{
+    
+    width: 1000px !important;
+   
+}
+
+#betButton
+{
+    position:relative;
+    left: 350px;
+    top: -100px;
+    
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+}
